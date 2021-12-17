@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+label {
+    font-weight: bold;
+}
+
+
+.contenedor{
+   position: relative; 
+   margin: 0 auto;
+   background-color: rgb(255, 255, 255);
+   width: 300px;
+   padding: 50px 20px;
+   box-sizing: border-box ;
+   border-radius: 15px;
+   box-shadow: 8px 12px 12px -5px rgb(185, 185, 185);
+   margin-top: 300px;
+}
+
+.contenedor__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box ;
+    padding: 4px;
+    outline: none;
+}
+
+.contenedor__btn {
+    margin-top: 20px;
+    padding: 5px 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
