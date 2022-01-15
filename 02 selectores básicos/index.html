@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clase1 {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <button id="btnPrueba">Prueba</button>
+    <input id="input1" type="text" value="50">
+
+    <div class="clase1">Caja 1</div>
+    <div class="clase1">Caja 2</div>
+
+<script>
+
+    // getElementById
+    let tag    = document.getElementById('btnPrueba');
+    let input1 = document.getElementById('input1');
+    // console.log(input1.value);    //captura el valor númerico del input
+    //console.log(tag.innerHTML) //captura el string del btn
+
+    // getElementsByClassName
+    let clas1 = document.getElementsByClassName('clase1');
+    //console.log(clas1[0]);
+    clas1[0].style.backgroundColor = 'blue';
+
+    // querySelector()
+    // console.log(document.querySelector('.clase1'));
+    console.log(document.querySelector('input'));
+
+    //addEventListener()
+    // btnPrueba.addEventListener('click',(e) => {
+    //     alert('EVENTO')
+    // })
+
+
+    //al pasar encima el mouse
+    btnPrueba.addEventListener('mouseover',(e) => {
+    clas1[1].style.backgroundColor = 'red';
+        
+    })
+
+</script>
+
+</body>
+</html>
