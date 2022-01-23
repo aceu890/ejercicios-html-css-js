@@ -1,0 +1,5 @@
+1. siempre se debe trabajar con variables const en los objetos, con esto evitamos que otro objeto ocupe la referencia en memoria que tiene mi objeto.
+
+2.  [] = array  &  {} = object
+
+3. 
