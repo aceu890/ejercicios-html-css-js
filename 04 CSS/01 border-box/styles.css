@@ -1,0 +1,21 @@
+/*GOOD PRACTICE*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; /*hack para el box model*/
+  scroll-behavior: smooth;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background: #09f;
+    border: 10px solid blue;
+    padding: 10px;
+}
