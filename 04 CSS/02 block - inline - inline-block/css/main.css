@@ -1,0 +1,11 @@
+.caja1 {
+    /* inline no respeta el alto y ancho */
+    /* display: inline; */
+    /* display inline-block si respeta alto y ancho */
+    display: inline-block;
+    border: 10px solid black ;
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
